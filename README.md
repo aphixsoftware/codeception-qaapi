@@ -39,7 +39,7 @@ Developer just needs to write one API method which can change a creation time of
 1. Install QaApi package:
 
     ```bash
-    composer require qadept/codeception-qaapi
+    composer require aphixsoftware/codeception-qaapi
     ```
 
 2. Add QaApi module to a suite file. Its content should look like:

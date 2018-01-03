@@ -1,9 +1,9 @@
 {
-    "name": "qadept/codeception-qaapi",
-    "description": "Codeceprion module to work with QA API",
+    "name": "aphixsoftware/codeception-qaapi",
+    "description": "Codeceprion module to work with QA API - Aphix Fork",
     "type": "library",
     "require": {
-        "codeception/codeception": ">=2.2"
+        "codeception/codeception": ">=2.3"
     },
     "license": "MIT",
     "autoload": {

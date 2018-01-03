@@ -120,7 +120,7 @@ class Generate extends Command implements CustomCommandInterface
             return false;
         }
 
-        $generatedPath = $this->buildPath(Configuration::supportDir(), '_generated/.');
+        $generatedPath = $this->createDirectoryFor(Configuration::supportDir(), '_generated/.');
         $archiveFile = $generatedPath . 'qaapi.zip';
         $res = file_put_contents($archiveFile, $resource);
         if (!$res) {
